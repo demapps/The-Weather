@@ -21,6 +21,12 @@
 		CD9C44AE19AA8D60006B399E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD9C449019AA8D60006B399E /* UIKit.framework */; };
 		CD9C44B619AA8D60006B399E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CD9C44B419AA8D60006B399E /* InfoPlist.strings */; };
 		CD9C44B819AA8D60006B399E /* The_WeatherTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD9C44B719AA8D60006B399E /* The_WeatherTests.m */; };
+		CD9C44CC19AA91A3006B399E /* FlipsideView.m in Sources */ = {isa = PBXBuildFile; fileRef = CD9C44C119AA91A3006B399E /* FlipsideView.m */; };
+		CD9C44CD19AA91A3006B399E /* FlipsideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD9C44C219AA91A3006B399E /* FlipsideViewController.m */; };
+		CD9C44CE19AA91A3006B399E /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD9C44C419AA91A3006B399E /* RootViewController.m */; };
+		CD9C44CF19AA91A3006B399E /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD9C44C519AA91A3006B399E /* MainViewController.m */; };
+		CD9C44D019AA91A3006B399E /* MainView.m in Sources */ = {isa = PBXBuildFile; fileRef = CD9C44C619AA91A3006B399E /* MainView.m */; };
+		CD9C44D119AA91A3006B399E /* TheWeather.m in Sources */ = {isa = PBXBuildFile; fileRef = CD9C44CB19AA91A3006B399E /* TheWeather.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +59,18 @@
 		CD9C44B319AA8D60006B399E /* The WeatherTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "The WeatherTests-Info.plist"; sourceTree = "<group>"; };
 		CD9C44B519AA8D60006B399E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		CD9C44B719AA8D60006B399E /* The_WeatherTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = The_WeatherTests.m; sourceTree = "<group>"; };
+		CD9C44C119AA91A3006B399E /* FlipsideView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlipsideView.m; sourceTree = "<group>"; };
+		CD9C44C219AA91A3006B399E /* FlipsideViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlipsideViewController.m; sourceTree = "<group>"; };
+		CD9C44C319AA91A3006B399E /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		CD9C44C419AA91A3006B399E /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		CD9C44C519AA91A3006B399E /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		CD9C44C619AA91A3006B399E /* MainView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainView.m; sourceTree = "<group>"; };
+		CD9C44C719AA91A3006B399E /* FlipsideView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlipsideView.h; sourceTree = "<group>"; };
+		CD9C44C819AA91A3006B399E /* FlipsideViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlipsideViewController.h; sourceTree = "<group>"; };
+		CD9C44C919AA91A3006B399E /* MainView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainView.h; sourceTree = "<group>"; };
+		CD9C44CA19AA91A3006B399E /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		CD9C44CB19AA91A3006B399E /* TheWeather.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TheWeather.m; sourceTree = "<group>"; };
+		CD9C44D219AA925D006B399E /* TheWeather.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TheWeather.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +130,18 @@
 		CD9C449219AA8D60006B399E /* The Weather */ = {
 			isa = PBXGroup;
 			children = (
+				CD9C44D219AA925D006B399E /* TheWeather.h */,
+				CD9C44C119AA91A3006B399E /* FlipsideView.m */,
+				CD9C44C219AA91A3006B399E /* FlipsideViewController.m */,
+				CD9C44C319AA91A3006B399E /* RootViewController.h */,
+				CD9C44C419AA91A3006B399E /* RootViewController.m */,
+				CD9C44C519AA91A3006B399E /* MainViewController.m */,
+				CD9C44C619AA91A3006B399E /* MainView.m */,
+				CD9C44C719AA91A3006B399E /* FlipsideView.h */,
+				CD9C44C819AA91A3006B399E /* FlipsideViewController.h */,
+				CD9C44C919AA91A3006B399E /* MainView.h */,
+				CD9C44CA19AA91A3006B399E /* MainViewController.h */,
+				CD9C44CB19AA91A3006B399E /* TheWeather.m */,
 				CD9C449B19AA8D60006B399E /* MixerAppDelegate.h */,
 				CD9C449C19AA8D60006B399E /* MixerAppDelegate.m */,
 				CD9C449E19AA8D60006B399E /* Main.storyboard */,
@@ -250,8 +280,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD9C44CC19AA91A3006B399E /* FlipsideView.m in Sources */,
 				CD9C44A319AA8D60006B399E /* MixerViewController.m in Sources */,
+				CD9C44CE19AA91A3006B399E /* RootViewController.m in Sources */,
 				CD9C449D19AA8D60006B399E /* MixerAppDelegate.m in Sources */,
+				CD9C44CF19AA91A3006B399E /* MainViewController.m in Sources */,
+				CD9C44D119AA91A3006B399E /* TheWeather.m in Sources */,
+				CD9C44D019AA91A3006B399E /* MainView.m in Sources */,
+				CD9C44CD19AA91A3006B399E /* FlipsideViewController.m in Sources */,
 				CD9C449919AA8D60006B399E /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
